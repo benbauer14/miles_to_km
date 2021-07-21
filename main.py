@@ -6,7 +6,7 @@ def button_clicked():
     label_value["text"] = int(input.get()) * 1.60934
 
 window.title("Miles to KM")
-window.minsize(400,300)
+window.minsize(200,100)
 
 input = tkinter.Entry(width=10)
 input.grid(column=1,row = 0)
